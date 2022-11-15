@@ -1,5 +1,31 @@
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        int count = 0;
+        for (int i = 100; i > 0; i--) {
+            if (i % 6 == 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
+
+
+
+
+
+ /*
+        for (int i=4; i<=14; i++){
+            if (i%2==0){
+                System.out.println(i);
+            }
+        }
+
+
+        for (int i=4; i<=14; i+=2){
+            System.out.println(i);
+        }
+
+
+
         for (int i = 5; i < 10; i++) {
             System.out.print(i + " ");
         }
@@ -10,8 +36,7 @@ public class Main {
             i++;
         }
 
-
-        /*for(int i=1; i<=10;i++){
+        for(int i=1; i<=10;i++){
             System.out.println(i);
         }
         for(int i=1; i<11;i++){
